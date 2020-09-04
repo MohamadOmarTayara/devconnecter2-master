@@ -106,7 +106,7 @@ class CreateProfile extends Component {
             error={errors.youtube}
           />
           <InputGroup
-            placeholder="Instagram Profile URL"
+            placeholder="Instagram Profile URL" 
             name="instagram"
             icon="fab fa-instagram"
             value={this.state.instagram}
