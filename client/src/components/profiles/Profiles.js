@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import Spinner from "../common/spinner.js";
 import Profileitem from "./profileitem";
 import { getProfiles } from "../../actions/profileActions";
-import profile from "../../validation/profile";
 
 class Profiles extends Component {
   componentDidMount() {
